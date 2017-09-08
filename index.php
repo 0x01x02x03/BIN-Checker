@@ -71,7 +71,7 @@
   <body>
    <br></br><center> <form method="post">
     <input type="text" id="enamdigit" name="enamdigit" placeholder="6 digit kartu" size="16" required>
-    <br><button type="submit" name="get" class="Button">SCAN NOW</button>
+    <br><button type="submit" name="get" class="Button">CHECK NOW</button>
     </form></center>
     <!-- Results here! -->
     <center><?php echo $binresult ?></center>
