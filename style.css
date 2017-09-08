@@ -1,0 +1,77 @@
+body {
+    line-height: 1.25;
+    color: #bbb;
+    font-family: "CONSOLAS";
+    font-size: 12px;
+	background: url("https://priv8.bukancoder.co/subdomain/images/back.png") repeat 0px 0px;
+                        }
+
+button {
+  position: relative;
+  background: #333;
+  border: 0;
+  padding: 14px 42px;
+  border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0.2em;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+}
+button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -200%;
+  width: 200%;
+  height: 100%;
+  transform: skewX(-20deg);
+  background-image: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent);
+}
+button:hover:after {
+  animation: shine 1.6s ease;
+}
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+form p { position: relative; }
+label { 
+  position: absolute;
+  left:-9999px;
+  text-indent: -9999px;
+}
+input {
+  display: block;
+  width: 30%;
+  height: 35%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin-bottom: 5px;
+  border: 1px solid #e5e5e5;
+  border-bottom: 2px solid #ddd;
+  background: #f2f2f2;
+  color: #555;
+  border-radius: 4px;
+}
+
+.form-control {
+    display: block;
+    width: 30%;
+    height: 30%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}    
